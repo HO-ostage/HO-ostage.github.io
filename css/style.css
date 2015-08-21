@@ -4,6 +4,10 @@
 
 /*Header*/
 
+#header-nav {
+	background: url(../img/light-blue-pattern.jpg) repeat-x;
+}
+
 #header-nav-contents {
 	margin: auto;
     width: 1200px;
@@ -19,6 +23,19 @@
 
 #header-info {
 	max-height: 95px;
+	margin-top: -10px;
+	-webkit-box-shadow: 0px 0px 10px;
+	        box-shadow: 0px 0px 10px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6fafe+0,d6fafe+11,85c8c5+27,d6fafe+49,d6fafe+100 */
+	background: #d6fafe; /* Old browsers */
+	background: -moz-linear-gradient(left,  #d6fafe 0%, #d6fafe 11%, #85c8c5 27%, #d6fafe 49%, #d6fafe 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d6fafe), color-stop(11%,#d6fafe), color-stop(27%,#85c8c5), color-stop(49%,#d6fafe), color-stop(100%,#d6fafe)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #d6fafe 0%,#d6fafe 11%,#85c8c5 27%,#d6fafe 49%,#d6fafe 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #d6fafe 0%,#d6fafe 11%,#85c8c5 27%,#d6fafe 49%,#d6fafe 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #d6fafe 0%,#d6fafe 11%,#85c8c5 27%,#d6fafe 49%,#d6fafe 100%); /* IE10+ */
+	background: linear-gradient(to right,  #d6fafe 0%,#d6fafe 11%,#85c8c5 27%,#d6fafe 49%,#d6fafe 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6fafe', endColorstr='#d6fafe',GradientType=1 ); /* IE6-9 */
 }
 
 #header-info-contents {
@@ -71,4 +88,17 @@
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.8);
 
     margin-top: 0px;
+}
+
+/* Container */
+
+body {
+	background: url(../img/light-blue-pattern.jpg);
+}
+
+.container {
+	margin-top: 20px;
+	-webkit-box-shadow: 0px 0px 15px;
+	        box-shadow: 0px 0px 15px;
+	background: url(http://www.intentionalcaregiver.com/wp-content/uploads/2013/10/Depositphotos_13674179_s.jpg) repeat;
 }
